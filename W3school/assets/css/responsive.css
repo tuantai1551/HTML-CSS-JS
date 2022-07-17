@@ -1,0 +1,28 @@
+/* Mobile */
+@media (max-width: 740px) {
+  #nav > li {
+    display: block;
+  }
+  #header .search-icon {
+    display: none;
+  }
+
+  #header .menu-icon {
+    color: #ccc;
+    font-size: 16px;
+    float: right;
+    line-height: 46px;
+  }
+  #header .mobile-menu-btn {
+    float: right;
+    padding: 0px 23px;
+    cursor: pointer;
+  }
+
+  #header .mobile-menu-btn:hover {
+    background-color: #ccc;
+  }
+  #header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
+  }
+}
